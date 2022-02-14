@@ -11,6 +11,7 @@
     <title>Save your data storage here.</title>
 </head>
 <body>
+<div class="wrapper_head">
     <header class="header">
            <div class="header_wrapper">
                 <div class="header_logo">
@@ -18,14 +19,13 @@
                         <img src="./img/Logo.png" alt="Save your data storage here." class="header_logo-pic">
                     </a>
                 </div>
-
                 <nav class="header_nav">
                     <ul class="header_list">
                         <li class="header_item">
                             <a href="/" class="header_link_first">About</a>
                         </li>
                         <li class="header_item">
-                            <a href="/" class="header_link">Help</a>
+                            <a href="#footer_wrapper" class="header_link">Help</a>
                         </li>
                         <li class="header_item">
                             <a href="/" class="header_link">Features</a>
@@ -36,12 +36,14 @@
     </header>
 
     <main class="main">
+        <div class="container_intro_items">
         <section class="intro">
                <h1 class="intro_title">Save your data storage here.</h1>
                <p class="intro_subtitle">Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others.</p>
-               <button class="intro_btn"><p class="intro_btn_item">Learn more</p></button>
+               <button class="intro_btn"><a href="#features" class="intro_btn_item">Learn more</a></button>
             <div class="intro_img_title"></div>
         </section>
+        </div>
         <section class="info">
             <div class="info_items">
                 <h2 class="info_item_title">We are a high-level data storage bank</h2>
@@ -49,7 +51,9 @@
             </div>
                 <img src="img/image2.png" class="info_item_img">
         </section>
-        <section class="features">
+</div>
+<div class="wrapper_main">
+        <section id="features">
             <div class="features_title">
                 <h2 class="features_item_title">Features</h2>
                 <p class="features_item_subtitle">Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.</p>
@@ -97,6 +101,7 @@
             </div>
         </div>
         </section>
+</div>
         <section class="testimonials_container">
             <div class="testimonials_container_items">
                 <div class="testimonials_title">
@@ -126,18 +131,49 @@
                         <p class="testimonials_item_third_link">Web Designer</p>
                         <p class="testimonials_item_third_subtitle">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor</p>
                 </div>
-                    <div class="testimonials_low_items">
+                </div>
+                </div>
+                <div class="testimonials_low">
                         <div class="testimonials_side">
-                            <ul class="testimonials_side_list">
-                                <li class="testimonials_side_list_item"></li><li></li><li></li><li></li>
-                            </ul>
+                            <div class="testimonials_side_item"></div>
+                            <div class="testimonials_side_item_second"></div>
+                            <div class="testimonials_side_item_third"></div>
+                            <div class="testimonials_side_item_fourth"></div>
                         </div>
-                        <div class="testimonials_vector_items"></div>
-                    </div>
+                        <div class="testimonials_vector_items">
+                            <img class="testimonials_first_vector"  src="img/vector2.png">
+                            <img src="img/vector3.png">
+                        </div>
                 </div>
             </div>
         </section>
+        <div class="footer_line"></div>
     </main>
-
+    <footer id="footer_wrapper">
+        <div class="left_side_footer_items">
+        <div class="footer_head">
+            <img class="footer_logo" src="img/Logo.png">
+            <p class="footer_title">DataWarehouse</p>
+        </div>
+        <p class="address_item">Warehouse Society, 234
+            <br>
+            Bahagia Ave Street PRBW 29281
+        </p>
+        <p class="item_info_links">info@warehouse.project
+            <br>
+            1-232-3434 (Main)</p>
+        <p class="datawarehouse_item">© Datawarehouse™, 2020. All rights reserved.
+            <br>
+            Company Registration Number: 21479524.</p>
+        </div>
+        <div class="right_side_footer_items">
+            <p class="social_media_item">Social Media</p>
+            <div class="social_media_items">
+                <div class="face_item"><img class="facebook" src="img/face.png"></div>
+                <div class="twit_item"><img class="twitter" src="img/twitter.png"></div>
+                <div class="inst_item"><img class="inst" src="img/inst.png"></div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
