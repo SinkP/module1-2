@@ -54,14 +54,17 @@ body {
     .header_link_first, .header_link {
         text-decoration: none;
         color: #212353;
+
     }
 
     .header_link_first, .header_link:hover {
-        opacity: 0.75;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 160%;
     }
 
     .header_link_first {
-        font-weight: 800;
+        font-weight: 500;
         font-size: 16px;
         line-height: 160%;
     }
